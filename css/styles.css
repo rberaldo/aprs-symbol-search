@@ -1,7 +1,7 @@
 body {
     background: #87CEFA;
     min-height: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1 {
@@ -33,10 +33,11 @@ h1 {
 }
 
 .grid-container {
+    max-width: 900px;
     display: grid;
     place-items: center;
     grid-template-columns: repeat(10, 1fr);
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .symbol {
