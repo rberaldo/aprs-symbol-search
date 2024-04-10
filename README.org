@@ -1,0 +1,8 @@
+A quick lookup tool for searching APRS symbols.
+
+* Thanks to
+
+This little tool would not have been possible without the work of @hessu. Check out his work at the following repos:
+
+- [[https://github.com/hessu/aprs-symbols][aprs-symbols]]: this is where I got the images from.
+- [[https://github.com/hessu/aprs-symbol-index][aprs-symbols-index]]: this was invaluable when building a list of all symbols.

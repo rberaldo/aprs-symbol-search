@@ -1,0 +1,14 @@
+/* Additional rules for handheld devices */
+.grid-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 20px;
+}
+
+#welcome {
+    width: 80%;
+    font-size: 16px;
+    background: #FFFF99;
+    text-align: justify;
+}

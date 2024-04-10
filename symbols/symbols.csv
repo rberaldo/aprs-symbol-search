@@ -1,0 +1,189 @@
+code,description,tocall,unused
+/!,Police station,BB,0
+"/""",,BC,1
+/#,Digipeater,BD,0
+/$,Telephone,BE,0
+/%,DX cluster,BF,0
+/&,HF gateway,BG,0
+/',Small aircraft,BH,0
+/(,Mobile satellite station,BI,0
+/),"Wheelchair, handicapped",BJ,0
+/*,Snowmobile,BK,0
+/+,Red Cross,BL,0
+"/,",Boy Scouts,BM,0
+/-,House,BN,0
+/.,Red X,BO,0
+//,Red dot,BP,0
+/0,Numbered circle: 0,P0,0
+/1,Numbered circle: 1,P1,0
+/2,Numbered circle: 2,P2,0
+/3,Numbered circle: 3,P3,0
+/4,Numbered circle: 4,P4,0
+/5,Numbered circle: 5,P5,0
+/6,Numbered circle: 6,P6,0
+/7,Numbered circle: 7,P7,0
+/8,Numbered circle: 8,P8,0
+/9,Numbered circle: 9,P9,0
+/:,Fire,MR,0
+/;,"Campground, tent",MS,0
+/<,Motorcycle,MT,0
+/=,Railroad engine,MU,0
+/>,Car,MV,0
+/?,File server,MW,0
+/@,Hurricane predicted path,MX,0
+/A,Aid station,PA,0
+/B,BBS,PB,0
+/C,Canoe,PC,0
+/D,,PD,1
+/E,Eyeball,PE,0
+/F,"Farm vehicle, tractor",PF,0
+/G,"Grid square, 3 by 3",PG,0
+/H,Hotel,PH,0
+/I,TCP/IP network station,PI,0
+/J,,PJ,1
+/K,School,PK,0
+/L,PC user,PL,0
+/M,Mac apple,PM,0
+/N,NTS station,PN,0
+/O,Balloon,PO,0
+/P,Police car,PP,0
+/Q,,PQ,1
+/R,"Recreational vehicle, RV",PR,0
+/S,Space Shuttle,PS,0
+/T,SSTV,PT,0
+/U,Bus,PU,0
+/V,"ATV, Amateur Television",PV,0
+/W,Weather service site,PW,0
+/X,Helicopter,PX,0
+/Y,Sailboat,PY,0
+/Z,Windows flag,PZ,0
+/[,Human,HS,0
+/\,DF triangle,HT,0
+/],"Mailbox, post office",HU,0
+/^,Large aircraft,HV,0
+/_,Weather station,HW,0
+/`,Satellite dish antenna,HX,0
+/a,Ambulance,LA,0
+/b,Bicycle,LB,0
+/c,Incident command post,LC,0
+/d,Fire station,LD,0
+/e,"Horse, equestrian",LE,0
+/f,Fire truck,LF,0
+/g,Glider,LG,0
+/h,Hospital,LH,0
+/i,"IOTA, islands on the air",LI,0
+/j,Jeep,LJ,0
+/k,Truck,LK,0
+/l,Laptop,LL,0
+/m,Mic-E repeater,LM,0
+/n,"Node, black bulls-eye",LN,0
+/o,Emergency operations center,LO,0
+/p,Dog,LP,0
+/q,"Grid square, 2 by 2",LQ,0
+/r,Repeater tower,LR,0
+/s,"Ship, power boat",LS,0
+/t,Truck stop,LT,0
+/u,"Semi-trailer truck, 18-wheeler",LU,0
+/v,Van,LV,0
+/w,Water station,LW,0
+/x,X / Unix,LX,0
+/y,"House, yagi antenna",LY,0
+/z,Shelter,LZ,0
+/{,,J1,1
+/|,TNC Stream Switch,J2,1
+/},,J3,1
+/~,TNC Stream Switch,J4,1
+,,Skip1,1
+,Version,Skip2,1
+\!,Emergency,OB,0
+"\""",,OC,1
+\#,"Digipeater, green star",OD,0
+\$,Bank or ATM,OE,0
+\%,,OF,1
+\&,Gateway station,OG,0
+\',Crash / incident site,OH,0
+\(,Cloudy,OI,0
+\),"Firenet MEO, MODIS Earth Observation",OJ,0
+\*,Snow,OK,0
+\+,Church,OL,0
+"\,",Girl Scouts,OM,0
+\-,"House, HF antenna",ON,0
+\.,"Ambiguous, question mark inside circle",OO,0
+\/,Waypoint destination,OP,0
+\0,"Circle, IRLP / Echolink/WIRES",A0,0
+\1,,A1,1
+\2,,A2,1
+\3,,A3,1
+\4,,A4,1
+\5,,A5,1
+\6,,A6,1
+\7,,A7,1
+\8,802.11 WiFi or other network node,A8,0
+\9,Gas station,A9,0
+\:,Hail,NR,0
+\;,"Park, picnic area",NS,0
+\<,"Advisory, single red flag",NT,0
+\=,,NU,1
+\>,Red car,NV,0
+\?,Info kiosk,NW,0
+\@,"Hurricane, Tropical storm",NX,0
+\A,White box,AA,0
+\B,Blowing snow,AB,0
+\C,Coast Guard,AC,0
+\D,Drizzling rain,AD,0
+\E,"Smoke, Chimney",AE,0
+\F,Freezing rain,AF,0
+\G,Snow shower,AG,0
+\H,Haze,AH,0
+\I,Rain shower,AI,0
+\J,Lightning,AJ,0
+\K,Kenwood HT,AK,0
+\L,Lighthouse,AL,0
+\M,,AM,1
+\N,Navigation buoy,AN,0
+\O,Rocket,AO,0
+\P,Parking,AP,0
+\Q,Earthquake,AQ,0
+\R,Restaurant,AR,0
+\S,Satellite,AS,0
+\T,Thunderstorm,AT,0
+\U,Sunny,AU,0
+\V,"VORTAC, Navigational aid",AV,0
+\W,NWS site,AW,0
+\X,Pharmacy,AX,0
+\Y,,AY,1
+\Z,,AZ,1
+\[,Wall Cloud,DS,0
+\\,,DT,1
+\],,DU,1
+\^,Aircraft,DV,0
+\_,Weather site,DW,0
+\`,Rain,DX,0
+\a,Red diamond,SA,0
+\b,"Blowing dust, sand",SB,0
+\c,"CD triangle, RACES, CERTS, SATERN",SC,0
+\d,DX spot,SD,0
+\e,Sleet,SE,0
+\f,Funnel cloud,SF,0
+\g,"Gale, two red flags",SG,0
+\h,Store,SH,0
+\i,"Black box, point of interest",SI,0
+\j,"Work zone, excavating machine",SJ,0
+\k,"SUV, ATV",SK,0
+\l,,SL,1
+\m,"Value sign, 3 digit display",SM,0
+\n,Red triangle,SN,0
+\o,Small circle,SO,0
+\p,Partly cloudy,SP,0
+\q,,SQ,1
+\r,Restrooms,SR,0
+\s,"Ship, boat",SS,0
+\t,Tornado,ST,0
+\u,Truck,SU,0
+\v,Van,SV,0
+\w,Flooding,SW,0
+\x,,SX,1
+\y,Skywarn,SY,0
+\z,Shelter,SZ,0
+\{,Fog,Q1,0
+\},,Q3,1

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol Search</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" media="(max-width: 640px)" href="css/handheld.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>APRS symbol quick lookup</h1>
+      <div id="welcome">
+        <p>Sometimes I'd catch myself wanting to search for <a href="http://www.aprs.org/symbols/symbolsX.txt">APRS symbols</a> by name. This is a convenient, quick lookup table. Search symbols by their description, code or even tocall attributes.</p>
+        <p>If you find this page useful, you can <a href="#">buy me a beer</a>.</p>
+      </div>
+    </div>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search by code or description…">
+    </div>
+    <div class="grid-container" id="symbolGrid">
+      <!-- Symbols will be dynamically generated here -->
+    </div>
+    <footer>
+      <p>&copy; Rafael Beraldo | GitHub | QRZ </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
