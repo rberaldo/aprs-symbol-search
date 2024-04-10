@@ -12,3 +12,7 @@
     background: #FFFF99;
     text-align: justify;
 }
+
+#searchInput {
+    width: 80%;
+}
