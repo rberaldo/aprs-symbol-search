@@ -15,7 +15,6 @@ function generateSymbols() {
         const symbolDiv = document.createElement("div");
         symbolDiv.classList.add("symbol");
         symbolDiv.id = "symbol-" + symbol.tocall;
-        //symbolDiv.title = symbol.code;
         symbolDiv.style.backgroundPosition = column + "px " + row + "px";
         symbolGrid.appendChild(symbolDiv);
 
@@ -23,15 +22,12 @@ function generateSymbols() {
         symbolTooltip.classList.add("tooltip");
         symbolDiv.appendChild(symbolTooltip);
 
-        const pCode = document.createElement("p");
-        const symbolCode = document.createTextNode("Code: " + symbol.code);
-        pCode.appendChild(symbolCode);
-        symbolTooltip.appendChild(pCode);
+        var tooltipText = "<p><b>Code: </b>"
+            + "<code>" + symbol.code + "</code></p>\n"
+            + "<p><b>Description: </b>"
+            + symbol.description + "</p>";
 
-        const pDescription = document.createElement("p");
-        const symbolDescription = document.createTextNode(symbol.description);
-        pDescription.appendChild(symbolDescription);
-        symbolTooltip.appendChild(pDescription);
+        symbolTooltip.innerHTML = tooltipText;
 
         column = column - 64;
         if (column < maxColumn) {
