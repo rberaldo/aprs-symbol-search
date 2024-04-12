@@ -13,6 +13,30 @@ h1 {
     place-items: center;
 }
 
+#languages {
+    margin-bottom: 25px;
+}
+
+#english-flag {
+    display: inline-block;
+    height: 25px;
+    width: 30px;
+    background-image: url('/img/uk-flag.gif');
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+#brazilian-flag {
+    display: inline-block;
+    height: 25px;
+    width: 30px;
+    background-image: url('/img/brazilian-flag.gif');
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+}
+
 #welcome {
     padding: 10px;
     width: 640px;
@@ -23,7 +47,7 @@ h1 {
 
 .search-container {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #searchInput {

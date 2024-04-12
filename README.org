@@ -1,17 +1,25 @@
-A tool for looking up APRS symbols. Search by description or code.
+[[https://aprs.tools/][aprs.tools]]: A tool for looking up APRS symbols. Search by description or code.
 
 For example, if you wanted to see all symbols related to houses, type =house= in the search box.
 
 Hovering over a symbol with the mouse cursor (or tapping, on a smartphone) will reveal the symbol’s code and its description.
 
-* To implement
+** To implement
 
 - Symbol overlays
 - Best practices tips (e.g. when to use or avoid using a symbol)
+- Symbol descriptions in Brazilian Portuguese
+- +Brazilian Portuguese translation+
 
-* Thanks to
+** Thanks to
 
 This little tool would not have been possible without the work of @hessu. Check out his work at the following repos:
 
 - [[https://github.com/hessu/aprs-symbols][aprs-symbols]]: this is where I got the images from.
 - [[https://github.com/hessu/aprs-symbol-index][aprs-symbols-index]]: this was invaluable when building a list of all symbols.
+
+The country flags were obtained from [[https://www.3dflagsplus.com/][3dflagsplus]].
+
+** Support aprs.tools
+
+This website costs money to keep online. If you liked it, you can help by [[https://www.paypal.com/donate/?hosted_button_id=XRLZ9W72B7HB4][donating on PayPal]]. Thanks!
