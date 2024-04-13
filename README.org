@@ -8,7 +8,7 @@ Hovering over a symbol with the mouse cursor (or tapping, on a smartphone) will 
 
 - Symbol overlays
 - Best practices tips (e.g. when to use or avoid using a symbol)
-- Symbol descriptions in Brazilian Portuguese
+- +Symbol descriptions in Brazilian Portuguese+
 - +Brazilian Portuguese translation+
 
 ** Thanks to
