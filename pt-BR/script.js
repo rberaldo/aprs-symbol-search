@@ -57,7 +57,7 @@ function filterSymbols() {
 
     symbols.forEach(symbol => {
         const symbolDiv = document.getElementById("symbol-" + symbol.tocall);
-        const symbolCode = symbol.code;
+        const symbolCode = symbol.code.toLowerCase();
         const symbolDescription = symbol.description.toLowerCase();
         const symbolTocall = symbol.tocall.toLowerCase();
 
